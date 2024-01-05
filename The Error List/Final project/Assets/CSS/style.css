@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../Images/Others/football\ background\ 1.jpg);
+    /* background-color: #d4d4d4; */
+}
+
+
+.Logo{
+    text-decoration: dotted;
+}
+
+.mainsection a{
+    color: white;
+}
+
+.middle1{
+    background-color: #d4d4d4;
+    margin: 20px 20px 20px 20px;
+}
+
+footer{
+    background-color: #1f1f1f; 
+}
+
+table{
+    background-color: #d4d4d4;
+    border: 1px solid black;
+}
+
+
+.mainsection{
+    background-color: #1f1f1f;
+    min-height: 100px;
+    padding-top: 25px;
+    color: #a80000;
+    
+}

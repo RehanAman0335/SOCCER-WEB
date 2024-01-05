@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Soocer-Verse: Rankings</title>
+    
+    <!-- link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <!-- link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    img {
+    width: 100px;
+    height: 100px;
+    margin: 3px 5px;
+    padding: 3px 5px;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        background-color: #d4d4d4;
+        margin-bottom: 20px;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 1px solid black;
+    }
+
+    button{
+        border: none;
+        border-radius: 6px;
+        color: #a80000;
+        background: #fff;
+        height: 35px;
+    }
+
+    h3{
+        background-color: #d4d4d4;
+    }
+
+    button:hover{
+        color: #fff;
+        background: #a80000;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .Flag{
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+
+<!-- Nav bar -----------------------------------------------------------------------------------------------------------------------------> 
+<nav class="mainsection">
+    <div class="row">
+        <div class="col-md-2">
+            <a href="index.html"><h1 class="Logo" style="color: #db0202;">SoccerVerse</h1></a>
+        </div>
+        <div class="col-md-10">
+            <ul class="nav mx-4" style="justify-content: end;">
+                <li class="nav-item"><a class="nav-link" href="Rankings.html">Top 10 Players</a> </li>
+                <li class="nav-item"><a class="nav-link" href="Tournament Schedule.html">Match Schedule</a> </li>
+                <li class="nav-item"><a class="nav-link" href="full team.html">Players Profile</a> </li>
+                <li class="nav-item"><a class="nav-link" href="contact us.html">Contact Us</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- top 10 players -->
+<div class="middle1">
+    <h3>Top 10 Soccer in football</h3>
+    <table border="1px solid black">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Image</th>
+                <th>Player</th>
+                <th>Game</th>
+                <th>Goals</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td><img src="Assets/Images/Portugal/Cristiano_Ronaldo_Striker.jpg"/></td>
+            <td>Cristiano Ronaldo</td>
+            <td>80</td>
+            <td>48</td>
+            <td>Portugal</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="Assets/Images/Argentina/Lionel_Messi.jpg"/></td>
+            <td>Lionel Messi</td>
+            <td>85</td>
+            <td>45</td>
+            <td>Argentina</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="Assets/Images/Italy/Ciro_Immobile.png"/></td>
+            <td>Ciro Immobile</td>
+            <td>89</td>
+            <td>43</td>
+            <td>Italy</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="Assets/Images/England/Harry_Kane _Striker.jpg"/></td>
+            <td>Harry Kane</td>
+            <td>93</td>
+            <td>39</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><img src="Assets/Images/Brazil/Neymar_Striker.jpg"/></td>
+            <td>Neymar</td>
+            <td>95</td>
+            <td>35</td>
+            <td>Brazil</td>
+            
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><img src="Assets/Images/France/Kylian_Mbappe_Striker.jpg"/></td>
+            <td>Kylian Mbappe</td>
+            <td>97</td>
+            <td>33</td>
+            <td>France</td>
+            
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><img src="Assets/Images/Germany/Jamal Musiala.jpg"/></td>
+            <td>Jamal Musiala</td>
+            <td>99</td>
+            <td>30</td>
+            <td>Germany</td>
+            
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><img src="Assets/Images/Spain/Ansu_Fati_Striker.jpg"/></td>
+            <td>Ansu Fati</td>
+            <td>101</td>
+            <td>28</td>
+            <td>Spain</td>
+            
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><img src="Assets/Images/England/Phil_Foden_Striker.png"/></td>
+            <td>Phil Foden</td>
+            <td>105</td>
+            <td>27</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><img src="Assets/Images/Italy/Domenico Berardi.png"/></td>
+            <td>Domenico Berardi</td>
+            <td>108</td>
+            <td>25</td>
+            <td>Italy</td>
+            
+        </tr>
+    </table>
+</div>
+
+    <!-- top 10 teams ------->
+<div class="middle1">
+    <h3>Top 10 Teams</h3>
+    <table border="1px solid black">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team Flag</th>
+                <th>Team Name</th>
+                <th>Win</th>
+                <th>Lose</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td><img src="Assets/Images/Argentina/Flag.jpg" style="width: auto;"/></td>
+            <td>Argentina</td>
+            <td>20</td>
+            <td>1</td>
+            <td>9.5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="Assets/Images/Brazil/Flag.jpg" style="width: auto;"/></td>
+            <td>Brazil</td>
+            <td>19</td>
+            <td>2</td>
+            <td>9.5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="Assets/Images/England/Flag.jpg" style="width: auto;"/></td>
+            <td>England</td>
+            <td>18</td>
+            <td>3</td>
+            <td>9.4</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="Assets/Images/France/Flag.jpg" style="width: auto;"/></td>
+            <td>France</td>
+            <td>17</td>
+            <td>3</td>
+            <td>9.3</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><img src="Assets/Images/Germany/Flag.jpg" style="width: auto;"/></td>
+            <td>Germany</td>
+            <td>15</td>
+            <td>4</td>
+            <td>9.3</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><img src="Assets/Images/Italy/Flag.jpg" style="width: auto;"/></td>
+            <td>Italy</td>
+            <td>13</td>
+            <td>6</td>
+            <td>9.2</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><img src="Assets/Images/Japan/Japan-Flag.jpg" style="width: auto;"/></td>
+            <td>Japan</td>
+            <td>11</td>
+            <td>7</td>
+            <td>9.1</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><img src="Assets/Images/Portugal/Flag.jpg" style="width: auto;"/></td>
+            <td>Portugal</td>
+            <td>10</td>
+            <td>8</td>
+            <td>9.1</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><img src="Assets/Images/Spain/Flag.jpg" style="width: auto;"/></td>
+            <td>Spain</td>
+            <td>8</td>
+            <td>9</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><img src="Assets/Images/Denmark/Denmark Flag.jpg" style="width: auto;"/></td>
+            <td>Denmark</td>
+            <td>7</td>
+            <td>10</td>
+            <td>8.9</td>
+        </tr>
+    </table>
+</div>
+
+<!-- Best Defenders -->
+<div class="middle1">
+    <table border="1px solid black">
+        <h3>Best Defender</h3>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Image</th>
+                <th>Player</th>
+                <th>Age</th>
+                <th>Rating</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td><img src="Assets/Images/England/Harry_Maguire_Defedner.jpg"/></td>
+            <td>Harry Maguire</td>
+            <td>30</td>
+            <td>5.0</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="Assets/Images/Argentina/Gonzalo_Montiel_Defender.jpg"/></td>
+            <td>Gonzalo Montiel</td>
+            <td>31</td>
+            <td>4.5</td>
+            <td>Argentina</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="Assets/Images/Brazil/Marquinhos_Defender.jpg"/></td>
+            <td>Marquinhos</td>
+            <td>32</td>
+            <td>4.0</td>
+            <td>Brazil</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="Assets/Images/England/Trent_Alexander_Arnold_Defedner.jpg"/></td>
+            <td>Trent Alexander Arnold</td>
+            <td>33</td>
+            <td>3.5</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><img src="Assets/Images/Germany/Christian Gunter.png"/></td>
+            <td>Christian Gunter</td>
+            <td>35</td>
+            <td>3.3</td>
+            <td>Germany</td>
+            
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><img src="Assets/Images/Spain/Jesus Navas.png"/></td>
+            <td>Jesus Navas</td>
+            <td>34</td>
+            <td>3.1</td>
+            <td>Spain</td>
+            
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><img src="Assets/Images/Italy/Leonardo_Spinazzola_Defender.jpg"/></td>
+            <td>Leonardo Spinazzola</td>
+            <td>36</td>
+            <td>3.0</td>
+            <td>Italy</td>
+            
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><img src="Assets/Images/Portugal/Diogo_Dalot_Defender.jpg"/></td>
+            <td>Diogo Dalot</td>
+            <td>40</td>
+            <td>2.8</td>
+            <td>Portugal</td>
+            
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><img src="Assets/Images/England/Kyle_Walker_Defedner.jpg"/></td>
+            <td>Kyle Walker</td>
+            <td>41</td>
+            <td>2.5</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><img src="Assets/Images/France/Benjamin_Pavard.jpg"/></td>
+            <td>Benjamin Pavard</td>
+            <td>42</td>
+            <td>2.0</td>
+            <td>France</td>
+            
+        </tr>
+    </table>
+</div>
+
+<!-- Best Goalkeepers -->
+<div class="middle1">
+    <h3>Best Goalkeepers</h3>
+    <table border="1px solid black">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Image</th>
+                <th>Player</th>
+                <th>Goals Pick</th>
+                <th>Goals Drop</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td><img src="Assets/Images/Argentina/Emiliano Martinez_Goalkeeper.jpg"/></td>
+            <td>Emiliano Martinez</td>
+            <td>55</td>
+            <td>4</td>
+            <td>Argentina</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="Assets/Images/Brazil/Alisson_Becker_Goalkeeper.png"/></td>
+            <td>Alisson Becker</td>
+            <td>50</td>
+            <td>8</td>
+            <td>Brazil</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="Assets/Images/England/aaron_ramsdale_Goalkeeper.jpg"/></td>
+            <td>Aaron Ramsdale</td>
+            <td>45</td>
+            <td>12</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="Assets/Images/France/Mike_Maignan_Goalkeeper.jpg"/></td>
+            <td>Mike Maignan</td>
+            <td>40</td>
+            <td>16</td>
+            <td>France</td>
+            
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><img src="Assets/Images/Germany/Marc_André_ter_Stegen_Goalkeeper.jpg"/></td>
+            <td>Marc André ter Stegen</td>
+            <td>35</td>
+            <td>18</td>
+            <td>Germany</td>
+            
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><img src="Assets/Images/Italy/Gianluigi_Donnarumma_Goalkeeper.jpg"/></td>
+            <td>Gianluigi Donnarumma</td>
+            <td>30</td>
+            <td>22</td>
+            <td>Italy</td>
+            
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><img src="Assets/Images/Portugal/Diogo_Costa_Goalkeeper.jpg"/></td>
+            <td>Diogo Costa</td>
+            <td>25</td>
+            <td>26</td>
+            <td>Portugal</td>
+            
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><img src="Assets/Images/Spain/Kepa_Arrizabalaga_Goalkeeper.jpg"/></td>
+            <td>Kepa Arrizabalaga</td>
+            <td>20</td>
+            <td>30</td>
+            <td>Spain</td>
+            
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><img src="Assets/Images/England/Sam_Johnstone_Goalkeeper.png"/></td>
+            <td>Sam Johnstone</td>
+            <td>15</td>
+            <td>35</td>
+            <td>England</td>
+            
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><img src="Assets/Images/Argentina/Franco_Armani_Goalkeeper.jpg"/></td>
+            <td>Franco Armani</td>
+            <td>10</td>
+            <td>40</td>
+            <td>Argentina</td>
+            
+        </tr>
+    </table>
+</div>
+
+<!-- Footer ------------------------------------------------------------------------------------------------------------------------------>
+<footer class="text-center text-lg-start text-white">
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mt-5">The SportsVerse</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <p>
+                        Welcome to Soccer-Verse where you get all your latest information about the football champions league of 2023. <br>
+                        All data about your favourite Teams, Favourite players and their rankings are available to you for display.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mt-5">heading 1</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <p>
+                        <a href="Rankings.html" class="text-white">Rankings</a>
+                    </p>
+                    <p>
+                        <a href="full team.html" class="text-white"></a>Teams</a>
+                    </p>
+                    <p>
+                        <a href="Tournament Schedule.html" class="text-white">Champions League</a>
+                    </p>
+                    <p>
+                        <a href="contact us.html" class="text-white">Reach out to us</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mt-5">Contact us</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <p><i class="fas fa-home mr-3"></i> address</p>
+                    <p><i class="fas fa-envelope mr-3"></i> email</p>
+                    <p><i class="fas fa-phone mr-3"></i> number 1</p>
+                    <p><i class="fas fa-print mr-3"></i> number 2</p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mt-5">FEED BACK</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <form action="">
+                        <div class="form-floating">
+                            <input style="width:250px; margin-bottom:10px" type="email" class="form-control"
+                                id="floatingInputValue" placeholder="email@example.com"
+                                value="email@example.com">
+                            <label for="floatingInputValue">Email</label>
+                        </div>
+                        <div class="form-floating">
+                            <input style="width:250px; margin-bottom:10px;" type="text" class="form-control"
+                                id="floatingInputValue" placeholder="Abc street" value="Abc street">
+                            <label for="floatingInputValue">Address</label>
+                        </div>
+                        <textarea style="width:250px" placeholder="Comments" id="" cols="30"
+                            rows="3"></textarea>
+
+                    </form>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-white" href="#">SportsVerse</a>
+    </div>
+</footer>
+
+
+</div>
+</body>
+</html>

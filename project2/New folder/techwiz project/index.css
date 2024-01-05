@@ -1,0 +1,40 @@
+.mainsection {
+    min-height: 100px;
+    padding-top: 50px;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.row {
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.nav {
+    float: right;
+}
+
+.middle1 {
+    margin-top: 20px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.playerimage img {
+    width: 250px;
+    height: 250px;
+}

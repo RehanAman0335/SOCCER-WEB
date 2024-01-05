@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* height: 500px; */
+    margin: auto;
+    width: 90vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+}
+.box{
+    height: 300px;
+    width: 225px;
+    border: 1px solid rgb(5, 5, 5);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    justify-content: space-evenly;
+}
+p{
+    /* text-align: justify; */
+}

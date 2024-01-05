@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    margin-left: 5px;
+}
+.img{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+    height: 275px;
+    width: 250px;
+    background-image: url(download.jpeg);
+    background-size: cover;
+
+}
+.fullname{
+        margin-left:50px;
+        padding-left: 50px;
+}
+.born{
+    margin-left:50px;
+    padding-left: 50px;
+}
+.age{
+    margin-left:50px;
+    padding-left: 50px;
+}
+
+.playe{
+    margin-top: 50px;
+}
